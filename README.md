@@ -9,9 +9,9 @@ This is an unfinished working draft yet.
 
 Todo / status
 - [x] Header
-- [] Sidebar
+- [ ] Sidebar
 - [x] Home
 - [x] Single
-- [] Footer
+- [ ] Footer
 
 ...comming soon. ;-)
