@@ -1,0 +1,133 @@
+/*
+Theme Name: p2-rosetta
+Theme URI: https://github.com/deworg/p2-rosetta
+Author: Heiko Mamerow
+Author URI: http://heikomamerow.de
+Description: A Child Theme for P2 that integrates on WordPress.org Rosetta sites.
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Template: p2
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+/* line 23, sass/style.scss */
+body {
+  background: #fff;
+}
+
+/* line 26, sass/style.scss */
+h1 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 36, sass/style.scss */
+.outer {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* line 41, sass/style.scss */
+#mid-wrapper {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+/* line 45, sass/style.scss */
+#mid-wrapper .section {
+  border-bottom: none;
+}
+
+/* line 48, sass/style.scss */
+.section {
+  padding-top: 27px;
+  padding-bottom: 17px;
+  clear: both;
+  width: 960px;
+  border-bottom: 1px solid #DADADA;
+}
+
+/* line 55, sass/style.scss */
+.wrapper {
+  clear: none;
+}
+
+/* line 67, sass/style.scss */
+.make-welcome {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.45;
+  background: #e4f2fd;
+  border: 1px solid #d9e1e7;
+  max-width: 978px;
+  margin: 10px auto 0;
+}
+
+/* line 76, sass/style.scss */
+.make-welcome {
+  padding-bottom: 14px;
+}
+
+/* line 79, sass/style.scss */
+.make-welcome h4 {
+  margin: 14px 0;
+}
+
+/* line 82, sass/style.scss */
+.make-welcome p {
+  display: inline;
+}
+
+/* line 85, sass/style.scss */
+.make-welcome h4,
+.make-welcome .welcome p:first-child {
+  font-weight: normal;
+  font-size: 18px;
+  font-family: "Open Sans", serif;
+}
+
+/* line 91, sass/style.scss */
+.make-welcome .column {
+  vertical-align: top;
+  display: inline-block;
+  padding: 0 1.5%;
+}
+
+/* line 96, sass/style.scss */
+.make-welcome .welcome {
+  padding-top: 1%;
+}
+
+@media screen and (min-width: 960px) {
+  /* line 101, sass/style.scss */
+  .make-welcome {
+    padding-bottom: 0;
+  }
+
+  /* line 104, sass/style.scss */
+  .make-welcome p {
+    display: block;
+  }
+
+  /* line 107, sass/style.scss */
+  .make-welcome .column {
+    width: 30%;
+    padding: 1.5%;
+  }
+
+  /* line 111, sass/style.scss */
+  .make-welcome .welcome p:first-child {
+    font-size: 22px;
+    margin: 12px 0 23px;
+  }
+
+  /* line 115, sass/style.scss */
+  .make-welcome h4, .make-welcome p {
+    margin-bottom: 14px;
+  }
+}

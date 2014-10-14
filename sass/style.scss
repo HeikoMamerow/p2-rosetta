@@ -1,0 +1,118 @@
+/*
+Theme Name: p2-rosetta
+Theme URI: https://github.com/deworg/p2-rosetta
+Author: Heiko Mamerow
+Author URI: http://heikomamerow.de
+Description: A Child Theme for P2 that integrates on WordPress.org Rosetta sites.
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Template: p2
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Commons
+////////////////////////////////////////////////////////////////////////////////
+body {
+	background: #fff;
+}
+h1 {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Just top down
+////////////////////////////////////////////////////////////////////////////////
+.outer {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+#mid-wrapper {
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #dfdfdf;
+}
+#mid-wrapper .section {
+	border-bottom: none;
+}
+.section {
+	padding-top: 27px;
+	padding-bottom: 17px;
+	clear: both;
+	width: 960px;
+	border-bottom: 1px solid #DADADA;
+}
+.wrapper {
+	clear: none;
+}
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Specials for individual sites
+////////////////////////////////////////////////////////////////////////////////
+
+// Welcome box on frontpage
+///////////////////////////
+.make-welcome {
+	font-size: 14px;
+	color: #333;
+	line-height: 1.45;
+	background: #e4f2fd;
+	border: 1px solid #d9e1e7;
+	max-width: 978px;
+	margin: 10px auto 0;
+}
+.make-welcome {
+	padding-bottom: 14px;
+}
+.make-welcome h4 {
+	margin: 14px 0;
+}
+.make-welcome p {
+	display: inline;
+}
+.make-welcome h4,
+.make-welcome .welcome p:first-child {
+	font-weight: normal;
+	font-size: 18px;
+	font-family: "Open Sans", serif;
+}
+.make-welcome .column {
+	vertical-align: top;
+	display: inline-block;
+	padding: 0 1.5%;
+}
+.make-welcome .welcome {
+	padding-top: 1%;
+}
+
+@media screen and (min-width: 960px) {
+	.make-welcome {
+		padding-bottom: 0;
+	}
+	.make-welcome p {
+		display: block;
+	}
+	.make-welcome .column {
+		width: 30%;
+		padding: 1.5%;
+	}
+	.make-welcome .welcome p:first-child {
+		font-size: 22px;
+		margin: 12px 0 23px;
+	}
+	.make-welcome h4, .make-welcome p {
+		margin-bottom: 14px;
+	}
+}
